@@ -104,6 +104,7 @@ celerybeat.pid
 # Environments
 .env
 .venv
+.commitment-issues-env
 env/
 venv/
 ENV/
