@@ -9,3 +9,6 @@ https://code.visualstudio.com/docs/python/testing#_example-test-walkthroughs
 
 ## example project with unit tests
 https://github.com/gwtw/py-sorting/blob/master/test/comb_sort_test.py
+
+## learn python programming
+https://python.land/
