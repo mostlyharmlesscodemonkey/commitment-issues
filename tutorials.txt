@@ -1,3 +1,14 @@
 ## setting up venv on mac
 https://honeyr.medium.com/how-to-set-up-virtual-environment-for-python-4af0273543d6
 
+## python on vscode
+https://code.visualstudio.com/docs/python/python-tutorial
+
+## python unit testing on vscode
+https://code.visualstudio.com/docs/python/testing#_example-test-walkthroughs
+
+## example project with unit tests
+https://github.com/gwtw/py-sorting/blob/master/test/comb_sort_test.py
+
+## learn python programming
+https://python.land/
