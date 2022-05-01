@@ -82,7 +82,7 @@ profile_default/
 ipython_config.py
 
 # vscode
-.vscode
+.vscode/*
 
 # pyenv
 .python-version
