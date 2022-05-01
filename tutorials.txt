@@ -1,0 +1,3 @@
+## setting up venv on mac
+https://honeyr.medium.com/how-to-set-up-virtual-environment-for-python-4af0273543d6
+
