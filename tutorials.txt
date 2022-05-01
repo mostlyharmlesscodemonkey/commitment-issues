@@ -3,3 +3,9 @@ https://honeyr.medium.com/how-to-set-up-virtual-environment-for-python-4af027354
 
 ## python on vscode
 https://code.visualstudio.com/docs/python/python-tutorial
+
+## python unit testing on vscode
+https://code.visualstudio.com/docs/python/testing#_example-test-walkthroughs
+
+## example project with unit tests
+https://github.com/gwtw/py-sorting/blob/master/test/comb_sort_test.py
