@@ -1,2 +1,0 @@
-## code formatter for python projects
-https://github.com/psf/black
