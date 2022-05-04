@@ -35,6 +35,6 @@ class Committer:
     def generate_filename(self, prefix):
         '''Returns unique filename based on the given prefix'''
         separator = "_"
-        extension = ".txt"
-        file_name = separator.join([prefix, str(uuid.uuid4()), extension])
+        extension = "txt"
+        file_name = ".".join([separator.join([prefix, str(uuid.uuid4())]), extension])
         return file_name
