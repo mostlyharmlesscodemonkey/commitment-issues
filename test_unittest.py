@@ -16,12 +16,13 @@ class Test_TestGithubOperations(unittest.TestCase):
         f.close()
         self.app = Committer(d['access_token'])
         self.repo_name = d['repo_name']
+        self.base_branch = d['base_branch']
 
     def test_count_repos(self):
-        self.assertEqual(self.app.count_repos(), 1)
+        self.assertEqual(self.app.count_repos(), 2)
 
     def test_has_master_branch_positive(self):
-        self.assertEqual(self.app.has_master_branch(self.repo_name), True)
+        self.assertEqual(self.app.has_master_branch(self.repo_name, self.base_branch), True)
 
     def test_has_master_branch_negative(self):
         self.assertEqual(self.app.has_master_branch('non-existent-repo'), False)
@@ -33,7 +34,7 @@ class Test_TestGithubOperations(unittest.TestCase):
 
     def test_commit_add_file(self):
         file_name = self.app.generate_filename('prefix')
-        self.assertIsNotNone(self.app.commit_add_file(self.repo_name, "test", "test: added a new file", file_name=file_name, data="wowee"))
+        self.assertIsNotNone(self.app.commit_add_file(self.repo_name, self.base_branch, "commit me, daddy", file_name=file_name, data="wowee"))
     
     # delete file on branch
     
