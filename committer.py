@@ -14,12 +14,12 @@ class Committer:
         '''Returns the count of repositories on the user\'s github account'''
         return self.client.get_user().get_repos().totalCount
 
-    def has_master_branch(self, repo_name=""):
+    def has_master_branch(self, repo_name="", custom_base_branch="master"):
         '''Returns True when there\'s a master branch on the repository; False otherwise'''
         try:
             user = self.client.get_user()
             repo = user.get_repo(repo_name)
-            branch = repo.get_branch(branch="master")
+            branch = repo.get_branch(branch=custom_base_branch)
             print(branch.name)
         except:
             return False
