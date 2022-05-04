@@ -25,3 +25,7 @@ https://docs.github.com/en/rest/guides/getting-started-with-the-rest-api
 
 ## access tokens for authentication with github api requests
 https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+
+## pygithub documentation (github api helper module)
+https://github.com/PyGithub/PyGithub
+https://pygithub.readthedocs.io/en/latest/introduction.html
