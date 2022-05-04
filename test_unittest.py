@@ -36,6 +36,7 @@ class Test_TestGithubOperations(unittest.TestCase):
         self.assertIsNotNone(self.app.commit_add_file(self.repo_name, "test", "test: added a new file", file_name=file_name, data="wowee"))
     
     # delete file on branch
+    
 
     # merge open PR automagically?
 
